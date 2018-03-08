@@ -1,0 +1,165 @@
+body{
+    background:chocolate;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.accordion {
+    background-color:deeppink;
+    color:white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.active, .accordion:hover {
+    background-color: rgb(10, 132, 214); 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 30px;
+
+}
+.container1{
+    float: left;
+}
+.container1 h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: deeppink;
+}
+.container1 img{
+    width:300px;
+    height: 280px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.container2{
+    float: right;
+
+}
+.container2 h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: deeppink;
+}
+.container1 p{
+    text-align: justify;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+.container2 img{
+    width:300px;
+    height: 280px;
+    float: right;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.container2 p{
+    text-align: justify;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: lowercase;
+    
+}
+.container3 iframe{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    left: 36%;
+    position: relative;
+}
+ 
+.container4 h3{
+    color: deeppink;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-size: 24px;
+}
+.container4 iframe{
+   position: relative;
+   left:34%;
+}
+.container5 h3{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 2em;
+}
+.container5 p{
+    text-align: center;
+    text-align: justify;
+    background: crimson;
+    color: white;
+    text-transform: lowercase;
+    padding:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container6 h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: deeppink;
+}
+.container6 p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+  @media (max-width:450px){
+      .accordion{
+          font-size: 15px;
+      }
+      .container3 iframe{
+          width:287px;
+          height: 250px;
+          margin-left: 1em;
+         
+      }
+      .container1 p,.container2 p{
+          font-size: 12px;
+          margin-left: 6px;
+      }
+      .container1 img,.container2 img{
+          width: 120px;
+          height: 100px;
+          float: left;
+          
+      }
+      .container1 h3,.container2 h3{
+          font-size: 16px;
+      }
+  }
+
+
+
